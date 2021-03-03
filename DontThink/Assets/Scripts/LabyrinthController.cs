@@ -10,7 +10,13 @@ public class LabyrinthController : MonoBehaviour
 
     private void Start()
     {
+        Reset();
+      
 
+    }
+
+    private void Reset()
+    {
         //Random Prefab
         _currentPatern = _paterns[Random.Range(0, _paterns.Count)];
         Debug.Log(_currentPatern);
@@ -21,14 +27,8 @@ public class LabyrinthController : MonoBehaviour
         //Desactive les autres paterns
         for (int i = 0; i < _paterns.Count; i++)
         {
-            _paterns[i].SetActive(false);     
-                
+            _paterns[i].SetActive(false);
+
         }
-
-    }
-
-    private void Update()
-    {
-
     }
 }
