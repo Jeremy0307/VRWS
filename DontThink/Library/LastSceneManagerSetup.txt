@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Realms/GD/AdrienRealm.unity
+- path: "Assets/Scenes/Realms/GA/Fran\xE7oisRealm.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
