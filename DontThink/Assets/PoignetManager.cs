@@ -11,7 +11,7 @@ public class PoignetManager : MonoBehaviour
         if (other.CompareTag("ResetTrigger"))
         {
             Debug.Log("Collision with TriggerReset");
-            LabyrinthController.Instance.Reset();
+           // LabyrinthController.Instance.Reset();
         }
     }
 }

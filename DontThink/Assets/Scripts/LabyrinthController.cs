@@ -8,11 +8,23 @@ public class LabyrinthController : MonoBehaviour
 
     [SerializeField] private GameObject _currentPatern = null;
 
-    [SerializeField] private Transform _poignetSpawner = null;
+    [SerializeField] private Transform _poignet = null;
 
-    private static LabyrinthController _instance = null;
+    [SerializeField] private Transform _startingPoint = null;
 
-    public static LabyrinthController Instance
+    [SerializeField] private GameObject _lastCP = null;
+
+    private int _checkpoint = 0;
+
+    public int Checkpoint
+    {
+        get => _checkpoint;
+        set => _checkpoint = value;
+    }
+
+    //private static LabyrinthController _instance = null;
+
+    /*public static LabyrinthController Instance
     {
         get
         {
@@ -22,21 +34,44 @@ public class LabyrinthController : MonoBehaviour
         {
             _instance = value;
         }
-    }
+    }*/
     
 
     private void Start()
     {
-        Reset();
+        ChooseNewPatern();
+    }
+
+    private void Update()
+    {
+        if(_checkpoint == 3)
+        {
+            _lastCP.SetActive(true);
+        }
     }
 
     public void Reset()
     {
+        //Le remet à sa place
+        //_poignet.gameObject.transform.position = GameObject.FindGameObjectWithTag("PoignetSpawner").transform.position;
+        _poignet.transform.position = _startingPoint.transform.position;
+        
+
+        for (int i = 0; i < _paterns.Count; i++)
+        {
+            _paterns[0].SetActive(true);
+            _paterns[1].SetActive(true);
+        }
+
+        ChooseNewPatern();
+       
+    }
+
+    public void ChooseNewPatern()
+    {
         //Random Prefab
         _currentPatern = _paterns[Random.Range(0, _paterns.Count)];
         Debug.Log(_currentPatern);
-
-
 
         //Desactive les autres paterns
         for (int i = 0; i < _paterns.Count; i++)
@@ -47,8 +82,5 @@ public class LabyrinthController : MonoBehaviour
 
         //Instantie le prefab
         _currentPatern.SetActive(true);
-       
-        //Le remet à sa place
-        GameObject.FindGameObjectWithTag("PoignetSpawner").transform.position = transform.position;
     }
 }
