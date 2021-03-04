@@ -7,12 +7,12 @@ public class LabyrinthController : MonoBehaviour
     [SerializeField] private List<GameObject> _paterns = new List<GameObject>();
 
     [SerializeField] private GameObject _currentPatern = null;
+    
+    [SerializeField] private  Transform _radarTransform = null;
 
     private void Start()
     {
         Reset();
-      
-
     }
 
     private void Reset()
@@ -22,7 +22,8 @@ public class LabyrinthController : MonoBehaviour
         Debug.Log(_currentPatern);
 
         //Instantie le prefab
-        Instantiate(_currentPatern, new Vector3(1, 1, -1), Quaternion.identity);
+        _currentPatern = Instantiate(_currentPatern, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+        _currentPatern.transform.parent = _radarTransform.transform;
 
         //Desactive les autres paterns
         for (int i = 0; i < _paterns.Count; i++)
