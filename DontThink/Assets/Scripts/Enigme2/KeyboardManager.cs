@@ -13,6 +13,8 @@ public class KeyboardManager : MonoBehaviour
     private int _keyIndex = 0;
     private string _updatedKey = string.Empty;
 
+    [SerializeField] private int _testKey = 0;
+
     public string UpdatedKey
     {
         get => _updatedKey;
@@ -43,13 +45,24 @@ public class KeyboardManager : MonoBehaviour
         {
             _keyIndex = 3;
         }*/
+
+        if(_updatedKey.Length >= 5)
+        {
+            UpdatingWord();
+        }
     }
 
     public void UpdatingWord()
     {
-        if (_updatedKey == _keys[_keyIndex])
+        if (_updatedKey == _keys[_testKey]) // à changer par _keyIndex après les tests
         {
             Debug.Log("We did it !");
+            _updatedKey = string.Empty;
         }
+    }
+
+    private void Reset()
+    {
+        
     }
 }
