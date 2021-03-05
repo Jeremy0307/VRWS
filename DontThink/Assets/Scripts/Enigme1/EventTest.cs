@@ -3,19 +3,32 @@ using Valve.VR.InteractionSystem;
 
 public class EventTest : MonoBehaviour
 {
+
+    [SerializeField] private KeyboardManager _keyboardManager = null;
+
+    private string _keyValue = string.Empty;
+
     public void OnPress(Hand hand)
     {
-        Debug.Log("SteamVR Button pressed!");
+        Debug.Log(_keyboardManager.UpdatedKey);
     }
 
     public void OnPressA(Hand hand)
     {
         Debug.Log("A pressed");
+
+        _keyValue = "A";
+
+        if(_keyboardManager.UpdatedKey != null)
+        {
+            _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
+
+        }
     }
 
     public void OnPressB(Hand hand)
     {
-        Debug.Log("A pressed");
+        Debug.Log("B pressed");
 
     }
 
