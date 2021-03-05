@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4e4945b5f6a7a47aa264ff1af6dd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _labyrinthController: {fileID: 0}
+  _labyrinthController: {fileID: 402292090}
 --- !u!1 &21246650
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,7 +843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 155687260}
   - component: {fileID: 155687261}
-  m_Layer: 26
+  m_Layer: 10
   m_Name: ControllerButtonHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1517,7 +1517,7 @@ GameObject:
   - component: {fileID: 316621389}
   - component: {fileID: 316621388}
   - component: {fileID: 316621387}
-  m_Layer: 26
+  m_Layer: 10
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3984,7 +3984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16
+      value: 0.067
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3992,7 +3992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.766
+      value: -1.175
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4538,7 +4538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 851164235}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: HoverPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4893,7 +4893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 888797164}
-  m_Layer: 26
+  m_Layer: 10
   m_Name: ObjectAttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5077,7 +5077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4e4945b5f6a7a47aa264ff1af6dd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _labyrinthController: {fileID: 0}
+  _labyrinthController: {fileID: 402292090}
 --- !u!1 &914500981
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,7 +5153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 928367621}
   - component: {fileID: 928367622}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: ControllerButtonHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5550,7 +5550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036581038}
   - component: {fileID: 1036581039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ControllerHoverHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10276,7 +10276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234061529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 1.337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10655,7 +10655,7 @@ GameObject:
   - component: {fileID: 1331166851}
   - component: {fileID: 1331166850}
   - component: {fileID: 1331166849}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12373,7 +12373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643497142}
-  m_Layer: 26
+  m_Layer: 10
   m_Name: HoverPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12639,7 +12639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4e4945b5f6a7a47aa264ff1af6dd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _labyrinthController: {fileID: 0}
+  _labyrinthController: {fileID: 402292090}
 --- !u!1 &1776584160
 GameObject:
   m_ObjectHideFlags: 0
@@ -13220,7 +13220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1798740432}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: ObjectAttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13445,7 +13445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851682458}
   - component: {fileID: 1851682459}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ControllerHoverHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
