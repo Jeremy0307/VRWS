@@ -19,6 +19,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressB(Hand hand)
@@ -32,6 +34,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
 
     }
 
@@ -47,6 +51,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressD(Hand hand)
@@ -60,6 +66,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressE(Hand hand)
@@ -73,6 +81,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressF(Hand hand)
@@ -86,6 +96,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressG(Hand hand)
@@ -99,6 +111,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressH(Hand hand)
@@ -112,6 +126,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressI(Hand hand)
@@ -125,6 +141,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressJ(Hand hand)
@@ -138,6 +156,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressK(Hand hand)
@@ -151,6 +171,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressL(Hand hand)
@@ -164,6 +186,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressM(Hand hand)
@@ -177,6 +201,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressN(Hand hand)
@@ -190,6 +216,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressO(Hand hand)
@@ -203,6 +231,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressP(Hand hand)
@@ -216,6 +246,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressQ(Hand hand)
@@ -229,6 +261,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressR(Hand hand)
@@ -242,6 +276,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressS(Hand hand)
@@ -255,6 +291,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressU(Hand hand)
@@ -268,6 +306,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressV(Hand hand)
@@ -281,6 +321,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressW(Hand hand)
@@ -294,6 +336,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressX(Hand hand)
@@ -307,6 +351,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressY(Hand hand)
@@ -320,6 +366,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPressZ(Hand hand)
@@ -333,6 +381,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress1(Hand hand)
@@ -347,7 +397,10 @@ public class EventTest : MonoBehaviour
 
         }
 
-    }  public void OnPress2(Hand hand)
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
+    }
+
+    public void OnPress2(Hand hand)
     {
         Debug.Log("2 pressed");
 
@@ -358,6 +411,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress3(Hand hand)
@@ -371,6 +426,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress4(Hand hand)
@@ -384,6 +441,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress5(Hand hand)
@@ -397,6 +456,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress6(Hand hand)
@@ -410,6 +471,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress7(Hand hand)
@@ -423,6 +486,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress8(Hand hand)
@@ -436,6 +501,8 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 
     public void OnPress(Hand hand)
@@ -451,5 +518,7 @@ public class EventTest : MonoBehaviour
             _keyboardManager.UpdatedKey = _keyboardManager.UpdatedKey + _keyValue;
 
         }
+
+        Debug.Log("Actual key : " + _keyboardManager.UpdatedKey);
     }
 }
