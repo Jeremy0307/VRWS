@@ -6047,8 +6047,7 @@ MonoBehaviour:
   - OWX7A
   - DRSM3
   - Z8HL2
-  _paterns: []
-  _testKey: 0
+  _trigger: {fileID: 1068755663}
 --- !u!114 &1068755594
 MonoBehaviour:
   m_ObjectHideFlags: 0

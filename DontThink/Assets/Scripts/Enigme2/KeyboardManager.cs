@@ -6,14 +6,13 @@ public class KeyboardManager : MonoBehaviour
 {
 
     [SerializeField] private string[] _keys = null;
-    [SerializeField] private GameObject[] _paterns = null;
+    [SerializeField] private Trigger2 _trigger = null;
 
     private GameObject _currentPatern = null;
     private string _currentString = string.Empty;
-    private int _keyIndex = 0;
     private string _updatedKey = string.Empty;
 
-    [SerializeField] private int _testKey = 0;
+    
 
     public string UpdatedKey
     {
@@ -23,30 +22,112 @@ public class KeyboardManager : MonoBehaviour
 
     void Start()
     {
-        //_currentPatern = _paterns[Random.Range(0, _paterns.Length)];
-        //_currentPatern.SetActive(true);
-
+        _currentString = _keys[_trigger.Index];
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*if(_currentPatern.name == "Patern1")
+        if(_trigger.Index == 0)
         {
-            _keyIndex = 1;
+            if(_updatedKey.Length >= 1 && _updatedKey != "O")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 2 && _updatedKey != "OW")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 3 && _updatedKey != "OWX")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 4 && _updatedKey != "OWX7")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 5 && _updatedKey != "OWX7A")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
         }
 
-        else if (_currentPatern.name == "Patern2")
+        if (_trigger.Index == 1)
         {
-            _keyIndex = 2;
+            if (_updatedKey.Length >= 1 && _updatedKey != "D")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 2 && _updatedKey != "DR")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 3 && _updatedKey != "DRS")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 4 && _updatedKey != "DRSM")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 5 && _updatedKey != "DRSM3")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
         }
 
-        else if (_currentPatern.name == "Patern3")
+        if (_trigger.Index == 2)
         {
-            _keyIndex = 3;
-        }*/
+            if (_updatedKey.Length >= 1 && _updatedKey != "Z")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
 
-        if(_updatedKey.Length >= 5)
+            if (_updatedKey.Length >= 2 && _updatedKey != "Z8")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 3 && _updatedKey != "Z8H")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 4 && _updatedKey != "Z8HL")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+
+            if (_updatedKey.Length >= 5 && _updatedKey != "Z8HL2")
+            {
+                Debug.Log("WRONG !");
+                Reset();
+            }
+        }
+
+        if (_updatedKey.Length >= 5)
         {
             UpdatingWord();
         }
@@ -54,7 +135,7 @@ public class KeyboardManager : MonoBehaviour
 
     public void UpdatingWord()
     {
-        if (_updatedKey == _keys[_testKey]) // à changer par _keyIndex après les tests
+        if (_updatedKey == _currentString)
         {
             Debug.Log("We did it !");
             _updatedKey = string.Empty;
@@ -63,6 +144,8 @@ public class KeyboardManager : MonoBehaviour
 
     private void Reset()
     {
-        
+        _updatedKey = string.Empty;
+        _trigger.Reset();
+        _currentString = _keys[_trigger.Index];
     }
 }

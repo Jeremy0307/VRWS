@@ -11,6 +11,8 @@ public class Trigger2 : MonoBehaviour
 
     private int _rand = 0;
 
+    public int Index => _rand;
+
     private void Awake()
     {
         _anim.enabled = false;
@@ -23,6 +25,13 @@ public class Trigger2 : MonoBehaviour
         _anim.enabled = true;
         _paper.material = _renderer[_rand];
             
+    }
+
+    public void Reset()
+    {
+        _rand = Random.Range(0, _renderer.Length);
+        _paper.material = _renderer[_rand];
+        _anim.Play(1);
     }
 }
 
