@@ -31,7 +31,7 @@ public class Trigger2 : MonoBehaviour
     {
         _rand = Random.Range(0, _renderer.Length);
         _paper.material = _renderer[_rand];
-        _anim.Play(1);
+        _anim.Play(0);
     }
 }
 
