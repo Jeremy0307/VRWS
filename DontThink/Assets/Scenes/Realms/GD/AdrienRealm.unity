@@ -1528,7 +1528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4e4945b5f6a7a47aa264ff1af6dd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _labyrinthController: {fileID: 0}
+  _labyrinthController: {fileID: 955945690}
 --- !u!65 &210701505
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4112,7 +4112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4e4945b5f6a7a47aa264ff1af6dd70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _labyrinthController: {fileID: 0}
+  _labyrinthController: {fileID: 955945690}
 --- !u!65 &697247698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5414,7 +5414,16 @@ MonoBehaviour:
   _currentPatern: {fileID: 0}
   _poignet: {fileID: 1448055592}
   _startingPoint: {fileID: 1205737981}
-  _lastCP: {fileID: 116386900}
+  _lastCP:
+  - {fileID: 116386900}
+  - {fileID: 1747104831}
+  _checkpoints:
+  - {fileID: 1097536513}
+  - {fileID: 1159652754}
+  - {fileID: 616264324}
+  - {fileID: 1424260245}
+  - {fileID: 1520992963}
+  - {fileID: 85600379}
 --- !u!4 &955945691
 Transform:
   m_ObjectHideFlags: 0
@@ -14149,7 +14158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1747104832
 Transform:
   m_ObjectHideFlags: 0
@@ -14158,7 +14167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747104831}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: -10.579997, z: 36.01}
+  m_LocalPosition: {x: 6.01, y: -10.579997, z: 39.3}
   m_LocalScale: {x: 2.000488, y: 2.886918, z: 2.0490146}
   m_Children: []
   m_Father: {fileID: 1644006506}

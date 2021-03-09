@@ -12,4 +12,9 @@ public class CheckpointController : MonoBehaviour
         gameObject.SetActive(false);
         _labyrinthController.Checkpoint++;
     }
+
+    public void Reset()
+    {
+        gameObject.SetActive(true);
+    }
 }
