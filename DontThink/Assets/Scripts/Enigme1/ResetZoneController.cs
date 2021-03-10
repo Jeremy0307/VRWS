@@ -21,6 +21,10 @@ public class ResetZoneController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _labyrinthController.Reset();
+        if(other.gameObject.tag == ("Poignet"))
+        {
+            _labyrinthController.Reset();
+        }
+       
     }
 }

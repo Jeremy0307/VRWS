@@ -9,8 +9,12 @@ public class CheckpointController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        gameObject.SetActive(false);
-        _labyrinthController.Checkpoint++;
+        if (other.gameObject.tag == ("Poignet"))
+        {
+            gameObject.SetActive(false);
+            _labyrinthController.Checkpoint++;
+        }
+           
     }
 
     public void Reset()

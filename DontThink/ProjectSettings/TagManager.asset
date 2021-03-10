@@ -8,6 +8,8 @@ TagManager:
   - PoignetSpawner
   - Trigger2
   - Button
+  - Poignet
+  - Radar
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Grab
   - RightHand
   - LeftHand
-  - 
+  - Radar
   - 
   - 
   - 

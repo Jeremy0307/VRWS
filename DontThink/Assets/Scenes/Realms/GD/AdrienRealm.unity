@@ -284,7 +284,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7635336}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &40213852
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 65710988}
   - component: {fileID: 65710987}
   - component: {fileID: 65710986}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1362,7 +1362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9
+      value: 1.16
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1588,7 +1588,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210701502}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1001 &212099340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234858007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.94, y: -9.4035, z: 40.881}
+  m_LocalPosition: {x: 5.94, y: -9.4035, z: 39.54}
   m_LocalScale: {x: 1.5137215, y: 2.886918, z: 1.141717}
   m_Children: []
   m_Father: {fileID: 1644006506}
@@ -1841,7 +1841,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234858007}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &255652599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,7 +2057,7 @@ GameObject:
   - component: {fileID: 319973248}
   - component: {fileID: 319973247}
   - component: {fileID: 319973246}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_polySurface17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3371,7 +3371,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576146689}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &583873040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4313,7 +4313,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697247695}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &702136101
 GameObject:
   m_ObjectHideFlags: 0
@@ -4375,7 +4375,7 @@ GameObject:
   - component: {fileID: 720905683}
   m_Layer: 8
   m_Name: polySurface18
-  m_TagString: Untagged
+  m_TagString: Poignet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4858,7 +4858,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762117362}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &768426367
 GameObject:
   m_ObjectHideFlags: 0
@@ -4950,7 +4950,7 @@ GameObject:
   - component: {fileID: 796596698}
   - component: {fileID: 796596697}
   - component: {fileID: 796596696}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder65 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5181,7 +5181,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828641220}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &837035635
 GameObject:
   m_ObjectHideFlags: 0
@@ -5660,7 +5660,7 @@ GameObject:
   - component: {fileID: 971523781}
   - component: {fileID: 971523780}
   - component: {fileID: 971523779}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5864,7 +5864,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010704624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: -2.6}
+  m_LocalPosition: {x: 2.71, y: 0, z: -2.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 149457300}
@@ -5984,7 +5984,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016274363}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1059291194
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,7 +5997,7 @@ GameObject:
   - component: {fileID: 1059291198}
   - component: {fileID: 1059291197}
   - component: {fileID: 1059291196}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10426,13 +10426,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 101508, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 105362, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 111998, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 125956, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_Name
       value: TeleportPoint (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 125956, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 142912, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 152582, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 162288, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 189078, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 198004, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.52
+      value: 3.485
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10440,7 +10476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.82
+      value: -0.322
       objectReference: {fileID: 0}
     - target: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11410,7 +11446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397307626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.06, y: -9.4035, z: 32.96}
+  m_LocalPosition: {x: -0.27, y: -9.4035, z: 32.96}
   m_LocalScale: {x: 1.9346795, y: 2.886918, z: 2.0490148}
   m_Children: []
   m_Father: {fileID: 1629924868}
@@ -11488,7 +11524,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397307626}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1406169898
 GameObject:
   m_ObjectHideFlags: 0
@@ -11517,7 +11553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406169898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.15, y: -9.4035, z: 22.39}
+  m_LocalPosition: {x: 2.03, y: -9.4035, z: 22.39}
   m_LocalScale: {x: 1.3602391, y: 2.886918, z: 2.0490148}
   m_Children: []
   m_Father: {fileID: 1629924868}
@@ -11595,7 +11631,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406169898}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1424260243
 GameObject:
   m_ObjectHideFlags: 0
@@ -11811,7 +11847,7 @@ GameObject:
   - component: {fileID: 1446309612}
   m_Layer: 8
   m_Name: polySurface16
-  m_TagString: Untagged
+  m_TagString: Poignet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11906,7 +11942,7 @@ GameObject:
   - component: {fileID: 1448055593}
   m_Layer: 8
   m_Name: Poignet
-  m_TagString: Untagged
+  m_TagString: Poignet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12153,7 +12189,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450779926}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1485879613
 GameObject:
   m_ObjectHideFlags: 0
@@ -12166,7 +12202,7 @@ GameObject:
   - component: {fileID: 1485879617}
   - component: {fileID: 1485879616}
   - component: {fileID: 1485879615}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_polySurface18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12260,7 +12296,7 @@ GameObject:
   - component: {fileID: 1494955119}
   - component: {fileID: 1494955118}
   - component: {fileID: 1494955117}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12448,7 +12484,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503497728}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1505854748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12792,7 +12828,7 @@ GameObject:
   - component: {fileID: 1523457287}
   - component: {fileID: 1523457286}
   - component: {fileID: 1523457285}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_polySurface16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13089,7 +13125,7 @@ GameObject:
   - component: {fileID: 1555596992}
   m_Layer: 8
   m_Name: pSphere1
-  m_TagString: Untagged
+  m_TagString: Poignet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13181,7 +13217,7 @@ GameObject:
   - component: {fileID: 1578499989}
   - component: {fileID: 1578499988}
   - component: {fileID: 1578499987}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13385,7 +13421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607323448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.98, y: -9.4035, z: 34.91}
+  m_LocalPosition: {x: -5, y: -9.4035, z: 37.9}
   m_LocalScale: {x: 1.5137215, y: 2.886918, z: 0.50428}
   m_Children: []
   m_Father: {fileID: 1644006506}
@@ -13463,7 +13499,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607323448}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1629924867
 GameObject:
   m_ObjectHideFlags: 0
@@ -13561,7 +13597,7 @@ GameObject:
   - component: {fileID: 1658994240}
   - component: {fileID: 1658994239}
   - component: {fileID: 1658994238}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCube26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13749,7 +13785,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665693112}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1682527676
 GameObject:
   m_ObjectHideFlags: 0
@@ -13778,7 +13814,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682527676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.77, y: -9.4035, z: 14.88}
+  m_LocalPosition: {x: 5.77, y: -9.4035, z: 15.63}
   m_LocalScale: {x: 1.5137215, y: 2.886918, z: 1.618984}
   m_Children: []
   m_Father: {fileID: 1629924868}
@@ -13856,7 +13892,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682527676}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1684299077
 GameObject:
   m_ObjectHideFlags: 0
@@ -13963,7 +13999,7 @@ GameObject:
   - component: {fileID: 1693200549}
   - component: {fileID: 1693200548}
   - component: {fileID: 1693200547}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14092,7 +14128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0403c00542c92c547b43d0cb31843d3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _anim: {fileID: 57835234}
 --- !u!65 &1693533365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14148,7 +14183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714790004}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.37, y: -9.403497, z: 32.9}
+  m_LocalPosition: {x: -9.5, y: -9.403497, z: 32.9}
   m_LocalScale: {x: 1.8427583, y: 2.886918, z: 0.50428}
   m_Children: []
   m_Father: {fileID: 1644006506}
@@ -14226,7 +14261,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714790004}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1724565890
 GameObject:
   m_ObjectHideFlags: 0
@@ -15153,7 +15188,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036978757}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!1 &2038379469
 GameObject:
   m_ObjectHideFlags: 0
@@ -15166,7 +15201,7 @@ GameObject:
   - component: {fileID: 2038379473}
   - component: {fileID: 2038379472}
   - component: {fileID: 2038379471}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lp_pCylinder58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
