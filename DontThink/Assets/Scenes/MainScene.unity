@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1285,7 +1285,7 @@ PrefabInstance:
     - target: {fileID: 2888662538229479801, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2888662538229479801, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289,
         type: 3}
@@ -1315,7 +1315,7 @@ PrefabInstance:
     - target: {fileID: 2888662538229479801, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2888662538229479801, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289,
         type: 3}
@@ -1336,6 +1336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plane
+      objectReference: {fileID: 0}
+    - target: {fileID: 2888662538229479805, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289, type: 3}
@@ -7984,6 +7989,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361066839}
   m_Mesh: {fileID: -1116444134294172880, guid: 6fb6c0e7ca2ccb54f9094688c1a74717, type: 3}
+--- !u!1 &1381134591 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2888662538229479805, guid: 97ef5d9ce3c4d0f4e8a63edd3f78f289,
+    type: 3}
+  m_PrefabInstance: {fileID: 77416737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1381134595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381134591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba19f628ff81a249aa886f88190298e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.009
 --- !u!1 &1383152700
 GameObject:
   m_ObjectHideFlags: 0
@@ -8315,7 +8339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

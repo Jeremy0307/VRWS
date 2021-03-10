@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 4795b1b2a69579a40beaa6e0fda96864
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Realms/GD/AdrienRealm.unity
     guid: 5ad6668669ed19c47927aeb231fffc1f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: e127817dca75152489f5bcb1c8ce74c8
   m_configObjects: {}
