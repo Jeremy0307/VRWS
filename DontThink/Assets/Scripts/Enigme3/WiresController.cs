@@ -1,18 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class WiresController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private GameObject[] _lights = null;
+
+    private void Awake()
     {
-        
+        for (int i = 0; i < _lights.Length; i++)
+        {
+            _lights[i].SetActive(false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void Reset()
     {
-        
+
+    }
+
+
+    public void OnPress0(Hand hand)
+    {
+        _lights[0].SetActive(true);
+        Reset();
+    }
+    public void OnPress1(Hand hand)
+    {
+        _lights[1].SetActive(true);
+        Reset();
+    }
+    public void OnPress2(Hand hand)
+    {
+        _lights[2].SetActive(true);
     }
 }
+
