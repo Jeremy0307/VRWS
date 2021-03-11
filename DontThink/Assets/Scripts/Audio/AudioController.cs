@@ -6,24 +6,26 @@ public class AudioController : MonoBehaviour
 {
     [SerializeField] private AudioClip[] _clips = null;
 
-    private int _clipIndex = 0;
+    private int _clipIndex = 1;
 
     private AudioSource _audio = null;
 
     private bool _audioPlaying = false;
 
-    private void Start()
+    void Start()
     {
-        _audio = gameObject.GetComponent<AudioSource>();
+        StartCoroutine(PlaySound());
+        _audio = GetComponent<AudioSource>();
     }
 
-    private void Update()
+    IEnumerator PlaySound()
     {
-        if (!_audio.isPlaying)
-        {
-            _clipIndex = Random.Range(0, _clips.Length - 1);
-            _audio.clip = _clips[_clipIndex];
-            _audio.PlayDelayed(Random.Range(20f, 50f));
-        }
+        yield return new WaitForSeconds(Random.Range(10f, 20f));
+
+        _clipIndex = Random.Range(0, _clips.Length - 1);
+        _audio.PlayOneShot(_clips[_clipIndex], 1f);
+
+        yield return new WaitForSeconds(_clips[_clipIndex].length);
+        StartCoroutine(PlaySound());
     }
 }
