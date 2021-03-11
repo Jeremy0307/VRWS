@@ -31,14 +31,14 @@ Material:
     m_Floats:
     - Depth: -0.03
     - Displacement: 0.15
-    - Normal_Strenght: 0.54
-    - Smoothness: 0.42
+    - Normal_Strenght: 0.177
+    - Smoothness: 0.87
     - Vector1_649435FF: 0.06
     - Vector1_A029B826: 0
     - _Strenght: 1.47
     m_Colors:
-    - Deep_water_color: {r: 0.41295835, g: 0.5101328, b: 0.6037736, a: 0.13333334}
+    - Deep_water_color: {r: 0.41295832, g: 0.5101328, b: 0.6037736, a: 0.4117647}
     - Main_Normal: {r: 0, g: 0, b: 0, a: 0}
-    - Shallow_water_color: {r: 0.21733712, g: 0.27835932, b: 0.41509432, a: 0.2}
+    - Shallow_water_color: {r: 0.21733707, g: 0.2783593, b: 0.4150943, a: 0.6392157}
     - Water_color_1: {r: 0.24643996, g: 0.60203415, b: 0.735849, a: 0.36862746}
     - Water_color_2: {r: 0.38803843, g: 0.5093547, b: 0.75471693, a: 0.3882353}
