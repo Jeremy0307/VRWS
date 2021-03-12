@@ -22,20 +22,24 @@ public class WiresController : MonoBehaviour
 
     }
 
-
     public void OnPress0(Hand hand)
     {
         _lights[0].SetActive(true);
         Reset();
+
     }
+
     public void OnPress1(Hand hand)
     {
-        _lights[1].SetActive(true);
+        _lights[0].SetActive(true);
         Reset();
+
     }
+
     public void OnPress2(Hand hand)
     {
         _lights[2].SetActive(true);
+
     }
 }
 

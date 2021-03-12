@@ -16,6 +16,9 @@ public class LabyrinthController : MonoBehaviour
 
     [SerializeField] private CheckpointController[] _checkpoints = null;
 
+    [SerializeField] private GameObject[] _patternAnimation = null;
+
+    [SerializeField] private GameObject[] _patternCpAnimation = null;
 
 
     private int _checkpoint = 0;
@@ -25,22 +28,7 @@ public class LabyrinthController : MonoBehaviour
         get => _checkpoint;
         set => _checkpoint = value;
     }
-
-    //private static LabyrinthController _instance = null;
-
-    /*public static LabyrinthController Instance
-    {
-        get
-        {
-            return _instance;
-        }
-        set
-        {
-            _instance = value;
-        }
-    }*/
     
-
     private void Start()
     {
         ChooseNewPatern();
@@ -52,12 +40,16 @@ public class LabyrinthController : MonoBehaviour
         {
             if (_paterns[0])
             {
+                _patternAnimation[0].SetActive(false);
                 _lastCP[0].SetActive(true);
+                _patternCpAnimation[0].SetActive(true);
             }
 
             if(_paterns[1])
             {
+                _patternAnimation[1].SetActive(false);
                 _lastCP[1].SetActive(true);
+                _patternCpAnimation[1].SetActive(true);
             }
         }
     }
@@ -95,6 +87,17 @@ public class LabyrinthController : MonoBehaviour
         _currentPatern = _paterns[Random.Range(0, _paterns.Count)];
         Debug.Log(_currentPatern);
 
+
+        for (int i = 0; i < _patternAnimation.Length; i++)
+        {
+            _patternAnimation[i].SetActive(false);
+        }
+
+        for (int i = 0; i < _patternCpAnimation.Length; i++)
+        {
+            _patternCpAnimation[i].SetActive(false);
+        }
+
         //Desactive les autres paterns
         for (int i = 0; i < _paterns.Count; i++)
         {
@@ -104,6 +107,15 @@ public class LabyrinthController : MonoBehaviour
 
         //Instantie le prefab
         _currentPatern.SetActive(true);
+
+        if (_currentPatern == _paterns[0])
+        {
+            _patternAnimation[0].SetActive(true);
+        }
+        if (_currentPatern == _paterns[1])
+        {
+            _patternAnimation[1].SetActive(true);
+        }
     }
 
     public void ResetCP()
