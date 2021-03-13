@@ -10,7 +10,7 @@ public class ColliderGameOver : MonoBehaviour
         if (other.gameObject.tag.Equals("Water"))
         {
             Debug.Log("GameOver");
-            SceneManager.GetActiveScene().buildIndex
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

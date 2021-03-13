@@ -7,6 +7,13 @@ public class LastCPController : MonoBehaviour
 
     [SerializeField] private Light _lightSuccess = null;
 
+    private AudioSource _successSource = null;
+
+    private void Start()
+    {
+        _successSource = GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == ("Poignet"))
@@ -16,7 +23,7 @@ public class LastCPController : MonoBehaviour
 
             //Play Sound
 
-
+            _successSource.Play(0);
 
             //Change la couleur de la light
             _lightSuccess.color = Color.green;

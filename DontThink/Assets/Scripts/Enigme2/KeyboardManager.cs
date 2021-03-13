@@ -14,6 +14,8 @@ public class KeyboardManager : MonoBehaviour
     private string _currentString = string.Empty;
     private string _updatedKey = string.Empty;
 
+    [SerializeField] private AudioSource _wrongSource = null;
+    [SerializeField] private AudioSource _successSource = null;
     
 
     public string UpdatedKey
@@ -35,30 +37,35 @@ public class KeyboardManager : MonoBehaviour
             if(_updatedKey.Length >= 1 && _updatedKey != "O")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 2 && _updatedKey != "OW")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 3 && _updatedKey != "OWX")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 4 && _updatedKey != "OWX7")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 5 && _updatedKey != "OWX7A")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
         }
@@ -68,30 +75,35 @@ public class KeyboardManager : MonoBehaviour
             if (_updatedKey.Length >= 1 && _updatedKey != "D")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 2 && _updatedKey != "DR")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 3 && _updatedKey != "DRS")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 4 && _updatedKey != "DRSM")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 5 && _updatedKey != "DRSM3")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
         }
@@ -101,30 +113,35 @@ public class KeyboardManager : MonoBehaviour
             if (_updatedKey.Length >= 1 && _updatedKey != "Z")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 2 && _updatedKey != "Z8")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 3 && _updatedKey != "Z8H")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 4 && _updatedKey != "Z8HL")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
 
             if (_updatedKey.Length >= 5 && _updatedKey != "Z8HL2")
             {
                 Debug.Log("WRONG !");
+                _wrongSource.Play(0);
                 Reset();
             }
         }
@@ -140,6 +157,7 @@ public class KeyboardManager : MonoBehaviour
         if (_updatedKey == _currentString)
         {
             //Play Sound
+            _successSource.Play(0);
 
             //Change la couleur de la light
 
