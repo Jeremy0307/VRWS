@@ -11,6 +11,7 @@ TagManager:
   - Poignet
   - Radar
   - Tuyaux
+  - Water
   layers:
   - Default
   - TransparentFX
