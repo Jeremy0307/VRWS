@@ -8,6 +8,8 @@ public class KeyboardManager : MonoBehaviour
     [SerializeField] private string[] _keys = null;
     [SerializeField] private Trigger2 _trigger = null;
 
+    [SerializeField] private Light _lightSuccess = null;
+
     private GameObject _currentPatern = null;
     private string _currentString = string.Empty;
     private string _updatedKey = string.Empty;
@@ -137,6 +139,12 @@ public class KeyboardManager : MonoBehaviour
     {
         if (_updatedKey == _currentString)
         {
+            //Play Sound
+
+            //Change la couleur de la light
+
+            _lightSuccess.color = Color.green;
+
             Debug.Log("We did it !");
             _updatedKey = string.Empty;
         }

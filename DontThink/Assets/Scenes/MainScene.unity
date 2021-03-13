@@ -1922,6 +1922,7 @@ MonoBehaviour:
   - DRSM3
   - Z8HL2
   _trigger: {fileID: 61027315}
+  _lightSuccess: {fileID: 961711253}
 --- !u!114 &61027317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5860,6 +5861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfaece9db96978446afc2917e853a104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _lightSuccess: {fileID: 1719235729}
 --- !u!65 &125979543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15512,6 +15514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfaece9db96978446afc2917e853a104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _lightSuccess: {fileID: 1719235729}
 --- !u!65 &1351820819
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColliderGameOver : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ColliderGameOver : MonoBehaviour
         if (other.gameObject.tag.Equals("Water"))
         {
             Debug.Log("GameOver");
+            SceneManager.GetActiveScene().buildIndex
         }
     }
 }
