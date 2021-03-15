@@ -16,6 +16,9 @@ public class KeyboardManager : MonoBehaviour
 
     [SerializeField] private AudioSource _wrongSource = null;
     [SerializeField] private AudioSource _successSource = null;
+
+    [SerializeField] private Light[] _lights = null;
+
     
 
     public string UpdatedKey
@@ -27,42 +30,43 @@ public class KeyboardManager : MonoBehaviour
     void Start()
     {
         _currentString = _keys[_trigger.Index];
+        _updatedKey = string.Empty;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(_trigger.Index == 0)
+        if (_trigger.Index == 0)
         {
-            if(_updatedKey.Length >= 1 && _updatedKey != "O")
+            if (_updatedKey.Length == 1 && _updatedKey != "O")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 2 && _updatedKey != "OW")
+            if (_updatedKey.Length == 2 && _updatedKey != "OV")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 3 && _updatedKey != "OWX")
+            if (_updatedKey.Length == 3 && _updatedKey != "OVW")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 4 && _updatedKey != "OWX7")
+            if (_updatedKey.Length == 4 && _updatedKey != "OVW6")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 5 && _updatedKey != "OWX7A")
+            if (_updatedKey.Length == 5 && _updatedKey != "OVW6A")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
@@ -72,35 +76,35 @@ public class KeyboardManager : MonoBehaviour
 
         if (_trigger.Index == 1)
         {
-            if (_updatedKey.Length >= 1 && _updatedKey != "D")
+            if (_updatedKey.Length == 1 && _updatedKey != "D")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 2 && _updatedKey != "DR")
+            if (_updatedKey.Length == 2 && _updatedKey != "DR")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 3 && _updatedKey != "DRS")
+            if (_updatedKey.Length == 3 && _updatedKey != "DRS")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 4 && _updatedKey != "DRSM")
+            if (_updatedKey.Length == 4 && _updatedKey != "DRSM")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 5 && _updatedKey != "DRSM3")
+            if (_updatedKey.Length == 5 && _updatedKey != "DRSM2")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
@@ -110,39 +114,123 @@ public class KeyboardManager : MonoBehaviour
 
         if (_trigger.Index == 2)
         {
-            if (_updatedKey.Length >= 1 && _updatedKey != "Z")
+            if (_updatedKey.Length == 1 && _updatedKey != "Y")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 2 && _updatedKey != "Z8")
+            if (_updatedKey.Length == 2 && _updatedKey != "Y7")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 3 && _updatedKey != "Z8H")
+            if (_updatedKey.Length == 3 && _updatedKey != "Y7H")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 4 && _updatedKey != "Z8HL")
+            if (_updatedKey.Length == 4 && _updatedKey != "Y7HL")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
             }
 
-            if (_updatedKey.Length >= 5 && _updatedKey != "Z8HL2")
+            if (_updatedKey.Length == 5 && _updatedKey != "Y7HL1")
             {
                 Debug.Log("WRONG !");
                 _wrongSource.Play(0);
                 Reset();
+            }
+        }
+
+        if (_trigger.Index == 0)
+        {
+            if (_updatedKey.Length == 1 && _updatedKey == "O")
+            {
+                _lights[0].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 2 && _updatedKey == "OV")
+            {
+                _lights[1].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 3 && _updatedKey == "OVW")
+            {
+                _lights[2].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 4 && _updatedKey == "OVW6")
+            {
+                _lights[3].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 5 && _updatedKey == "OVW6A")
+            {
+                //_lights[4].color = Color.green;
+            }
+        }
+
+        if (_trigger.Index == 1)
+        {
+            if (_updatedKey.Length == 1 && _updatedKey == "D")
+            {
+                _lights[0].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 2 && _updatedKey == "DR")
+            {
+                _lights[1].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 3 && _updatedKey == "DRS")
+            {
+                _lights[2].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 4 && _updatedKey == "DRSM")
+            {
+                _lights[3].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 5 && _updatedKey == "DRSM2")
+            {
+                //_lights[4].color = Color.green;
+            }
+        }
+
+        if (_trigger.Index == 2)
+        {
+            if (_updatedKey.Length == 1 && _updatedKey == "Y")
+            {
+                _lights[0].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 2 && _updatedKey == "Y7")
+            {
+                _lights[1].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 3 && _updatedKey == "Y7H")
+            {
+                _lights[2].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 4 && _updatedKey == "Y7HL")
+            {
+                _lights[3].color = Color.green;
+            }
+
+            if (_updatedKey.Length == 5 && _updatedKey == "Y7HL1")
+            {
+                //_lights[4].color = Color.green; ;
             }
         }
 
@@ -173,5 +261,10 @@ public class KeyboardManager : MonoBehaviour
         _updatedKey = string.Empty;
         _trigger.Reset();
         _currentString = _keys[_trigger.Index];
+
+        for (int i = 0; i < _lights.Length; i++)
+        {
+            _lights[i].color = Color.red;
+        }
     }
 }
